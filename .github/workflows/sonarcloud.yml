@@ -1,0 +1,21 @@
+name: SonarCloud
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Tests
+      uses: pondevelopment/actions/nodejs@main
+      with:
+        NPM_REGISTRY_TOKEN: ${{ secrets.NPM_TOKEN }}
+        NODE_CACHE: 'npm'
+        MODULES_CACHE: 'true'
+    - name: SonarCloud
+      uses: sonarsource/sonarcloud-github-action@v1.8
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
