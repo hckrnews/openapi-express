@@ -38,10 +38,10 @@
     "vulnerabilities": "npm audit --omit=dev"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.12",
+    "@babel/core": "^7.23.5",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/plugin-transform-modules-commonjs": "^7.20.11",
-    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-env": "^7.23.5",
     "@jest/globals": "^29.4.2",
     "babel-jest": "^29.4.2",
     "eslint": "^8.44.0",
