@@ -68,7 +68,7 @@
     "@hckrnews/express-callback": "^4.1.2",
     "@hckrnews/logger": "^0.2.0",
     "@hckrnews/openapi-routes": "^1.2.1",
-    "@hckrnews/validator": "^8.0.5",
+    "@hckrnews/validator": "^8.0.12",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
