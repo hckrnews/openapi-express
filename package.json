@@ -64,7 +64,7 @@
     "node": ">= 18.13"
   },
   "dependencies": {
-    "@hckrnews/error": "^1.0.4",
+    "@hckrnews/error": "^1.0.9",
     "@hckrnews/express-callback": "^4.1.2",
     "@hckrnews/logger": "^0.2.0",
     "@hckrnews/openapi-routes": "^1.2.1",
