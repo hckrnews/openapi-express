@@ -1,6 +1,6 @@
 {
   "name": "@hckrnews/openapi-express",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "OpenAPI express",
   "files": [
     "src/openapi-express.js",
