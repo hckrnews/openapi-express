@@ -1,4 +1,4 @@
-import { ServerError } from '@hckrnews/error'
+import { ServerError } from '@trojs/error'
 
 class API {
   constructor () {

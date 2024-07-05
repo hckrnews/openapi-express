@@ -1,4 +1,4 @@
-import { ServerError } from '@hckrnews/error'
+import { ServerError } from '@trojs/error'
 
 const generateContent = (size) => Array(size).fill().map(_ => String.fromCharCode(33 + Math.random() * (127 - 33))).join('')
 

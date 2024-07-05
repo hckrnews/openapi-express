@@ -64,11 +64,11 @@
     "node": ">= 18.13"
   },
   "dependencies": {
-    "@hckrnews/error": "^2.0.0",
+    "@trojs/error": "^3.0.0",
     "@hckrnews/express-callback": "^4.1.2",
-    "@hckrnews/logger": "^0.3.0",
+    "@trojs/logger": "^0.4.0",
     "@hckrnews/openapi-routes": "^1.3.0",
-    "@hckrnews/validator": "^9.0.0",
+    "@trojs/validator": "^10.0.0",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
