@@ -79,7 +79,7 @@
     "swagger-ui-express": "^5.0.0"
   },
   "overrides": {
-    "optionator": "0.9.3"
+    "optionator": "0.9.4"
   },
   "license": "MIT",
   "funding": {
