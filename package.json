@@ -1,6 +1,6 @@
 {
   "name": "@hckrnews/openapi-express",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "OpenAPI express",
   "files": [
     "src/openapi-express.js",
@@ -55,9 +55,9 @@
     "jest": "^29.4.2",
     "jest-junit": "^16.0.0",
     "jest-sonar-reporter": "^2.0.0",
-    "jscpd": "^3.5.3",
+    "jscpd": "^4.0.0",
     "prettier": "^3.0.0",
-    "supertest": "^6.3.3"
+    "supertest": "^7.0.0"
   },
   "type": "module",
   "engines": {
